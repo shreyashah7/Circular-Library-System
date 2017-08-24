@@ -1,0 +1,120 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/download1" >
+    
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent"
+        android:scrollbars="horizontal|vertical" >
+
+    <TableRow
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" >
+
+        <TextView
+            android:id="@+id/txtname"
+            android:layout_width="0dip"
+            android:layout_height="fill_parent"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="50dp"
+            android:layout_weight="20"
+            android:lineSpacingExtra="40dp"
+            android:gravity="center_vertical"
+            android:text="Contact Us"
+            android:textSize="29dp"
+            android:textStyle="bold" />
+
+	</TableRow>
+	
+    <TableRow>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="20"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="40dp"
+        android:text="Address:"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="80"
+        android:gravity="center_vertical"
+        android:text="Ninedigit Technologies Private Limited
+					 \n F-3,Jugal Complex,Op. L.J. Commerce College
+					\n Vastrapur , Ahmedabad – 380 015"
+        android:textSize="19dp" />
+
+    </TableRow>
+    <TableRow>
+         <TextView
+	android:lineSpacingExtra="20dp" 
+	android:text=" " />  
+    </TableRow>
+    
+    <TableRow>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="20"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="20dp"
+        android:text="Customer Care:"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="80"
+        android:gravity="center_vertical"
+        android:text="079 – 4000 9226 (Mon - Sat, 10AM - 7PM)"
+        android:textSize="19dp" />
+
+    </TableRow>
+    <TableRow>
+         <TextView
+	android:lineSpacingExtra="20dp" 
+	android:text=" " />  
+    </TableRow>
+     <TableRow>
+
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="10dp"
+        android:layout_weight="20"
+        android:gravity="center_vertical"
+        android:lineSpacingExtra="10dp"
+        android:text="Email us:"
+        android:textSize="19dp"
+        android:textStyle="normal" />
+    
+    <TextView
+        android:id="@+id/txtTitle"
+        android:layout_width="0dip"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="7dp"
+        android:layout_weight="80"
+        android:gravity="center_vertical"
+        android:text="cs@callibrary.com"
+        android:textSize="19dp" />
+
+    </TableRow>
+  </TableLayout>
+    </ScrollView>

@@ -1,0 +1,104 @@
+<TableLayout
+		xmlns:android="http://schemas.android.com/apk/res/android"
+		android:layout_width="fill_parent"
+		android:layout_height="fill_parent" >
+
+    <TableRow
+        android:layout_height="100dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="40dp"
+        android:padding="2dip" >
+
+        <ImageView
+            android:id="@+id/imgIcon"
+            android:layout_width="0dp"
+            android:layout_height="140dp"
+            android:layout_weight="30"
+            android:gravity="center_vertical"
+            android:paddingLeft="1dp" />
+
+        <TableLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_weight="40"
+            android:padding="1dip"
+            android:stretchColumns="1" >
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtname"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:text="Name:"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtTitle"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtauth"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:text="Author:"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/txtauthor"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp" />
+            </TableRow>
+
+            <TableRow>
+
+                <TextView
+                    android:id="@+id/txtstat"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:text="Status:"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                     android:id="@+id/txtstatus"
+                    android:layout_width="0dip"
+                    android:layout_height="fill_parent"
+                    android:layout_marginLeft="2dp"
+                    android:layout_weight="60"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/brown"
+                    android:textSize="19dp" />
+            </TableRow>
+        </TableLayout>
+    </TableRow>
+
+</TableLayout>
